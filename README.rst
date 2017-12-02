@@ -18,8 +18,8 @@ README hosted with an attractive Sphinx documentation theme.
 
 .. note::
 
-    Your README file should be in a `reStructuredText`_ compatible
-    format.
+    As of version 0.4 your README file can now be written in
+    `reStructuredText`_  and `Markdown`_ format.
 
 Installation
 ============
@@ -77,6 +77,7 @@ the **Requirements file** field for your project on Read The Docs.
 .. _`BSD licensed`: http://www.linfo.org/bsdlicense.html
 .. _`Sphinx`: http://sphinx.pocoo.org/
 .. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
+.. _`Markdown`: https://daringfireball.net/projects/markdown/syntax
 .. _`PyPI`: http://pypi.python.org/
 .. _`setuptools`: http://pypi.python.org/pypi/setuptools
 .. _`pip`: http://www.pip-installer.org/

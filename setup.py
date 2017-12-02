@@ -30,6 +30,10 @@ setup(
         [console_scripts]
         sphinx-me=sphinx_me:install
     """,
+    install_requires=[
+        'recommonmark',
+        'sphinx',
+    ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
