@@ -34,7 +34,7 @@ Installation
 The easiest way to install sphinx-me is directly from `GitHub`_ using
 `pip`_ by running the respective command below::
 
-    $ pip install -U https://github.com/iwelch82/sphinx-me/tree/renew-core
+    $ pip install -e git+git://github.com/iwelch82/sphinx-me.git
 
 Otherwise you can download sphinx-me and install it directly
 from source::
