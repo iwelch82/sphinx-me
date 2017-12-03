@@ -1,5 +1,12 @@
 Created by `Stephen McDonald <http://twitter.com/stephen_mcd>`_
 
+.. note::
+
+    This is a fork of `Stephen McDonald's <http://twitter.com/stephen_mcd>`_
+    Sphinx-me project that has been customized to include formatting
+    used for renew-core documentation. This fork is maintained on an
+    independent branch called ``renew-core``.
+
 Introduction
 ============
 
@@ -24,14 +31,10 @@ README hosted with an attractive Sphinx documentation theme.
 Installation
 ============
 
-The easiest way to install sphinx-me is directly from `PyPI`_ using
-`pip`_ or `setuptools`_ by running the respective command below::
+The easiest way to install sphinx-me is directly from `GitHub`_ using
+`pip`_ by running the respective command below::
 
-    $ pip install -U sphinx-me
-
-or::
-
-    $ easy_install -U sphinx-me
+    $ pip install -U https://github.com/iwelch82/sphinx-me/tree/renew-core
 
 Otherwise you can download sphinx-me and install it directly
 from source::
@@ -47,8 +50,8 @@ the command line while in your project's root directory::
     $ sphinx-me
 
 When run in your project's directory, it will create a ``docs`` directory
-with two files, the Sphinx ``conf.py`` module, and an ``index.rst`` file
-which will include your project's README.
+with two files, the Sphinx ``conf.py`` module, and an ``index.rst`` or
+``index.md`` file which will include your project's README.
 
 The ``conf.py`` module calls a setup function from sphinx-me that sets up
 the minimum required settings for your Sphinx docs.
@@ -82,3 +85,4 @@ the **Requirements file** field for your project on Read The Docs.
 .. _`setuptools`: http://pypi.python.org/pypi/setuptools
 .. _`pip`: http://www.pip-installer.org/
 .. _`pip requirements file`: http://www.pip-installer.org/en/latest/requirement-format.html
+.. _`GitHub`: https://github.com/iwelch82/sphinx-me/tree/renew-core
